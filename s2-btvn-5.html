@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
+    <section>
+       
     <center>
     <h1><i>My Store</i></h1>
     <table border="1">
@@ -45,5 +47,85 @@
         </tbody>
     </table>
     </center>
+    </section>
+
+    <section>
+        <h2>Booking Form</h2>
+        <form action="">
+            <p>
+                <label>Name:</label>
+                <input type="text" />
+            </p>
+            <p>
+                <label>Email:</label>
+                <input type="email" />
+            </p>
+            <p>
+                <label>Phone:</label>
+                <input type="tel" />
+            </p>
+            <p>
+                <label>Date:</label>
+                <!--cái icon cuốn lịch thì làm ntn ạ? -->
+                <input type="date" placeholder="mm/dd/yyyy" />
+            </p>
+            <p>
+                <label>Time:</label>
+                <input type="time" />
+            </p>
+            <p>
+                <label>Number of Guests:</label>
+                <input type="number" name="guest" min="1" />
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </form>
+    </section>
+
+    <section>
+        <h2>Car Purcharse Form</h2>
+        <form action="">
+            <p>
+                <label>Name:</label>
+                <input type="text" />
+            </p>
+            <p>
+                <label>Email:</label>
+                <input type="email" />
+            </p>
+            <p>
+                <label>Phone:</label>
+                <input type="tel" />
+            </p>
+            <p>
+                <label>Choose a Car:</label>
+                <select name="car">
+                    <option value="model1">Model 1</option>
+                    <option value="model2">Model 2</option>
+                    <option value="model3">Model 3</option>
+                </select>
+            </p>    
+            <p>
+                <label>Choose a Color:</label>
+                <select name="color">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="black">Black</option>
+                </select>
+            </p>
+            <p>
+                <label>Quantity:</label>
+                <input type="text" name="quantity" />
+            </p>
+            <p>
+                <label>Delivery Date:</label>
+                <input type="date" placeholder="mm/dd/yyyy" />
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </form>
+    </section>
 </body>
 </html>
